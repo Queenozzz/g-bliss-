@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'montserrat', sans-serif;
+}
+
+body{
+  background-image: linear-gradient(#636163, #716e72);
+  height: 100vh;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+} 
+
+.main{
+  background-color: white;
+  margin: 0;
+  height: auto;
+  width: 700px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 95%;
+}
+
+.left{
+  background-color: #00bac7;
+  width: 200px;
+  margin-top: 1%;
+  height: 100%;
+  float: left ;
+}
+
+.right{
+  width: 500px;
+  float: right;
+}
+
+.profile-img{
+  height: 180px;
+  width: 180px;
+  background-color: #b2cfd1;
+  border-radius: 50px;
+  margin-right: 70px;
+  margin-left: 0;
+  border: 10px solid #00bac7;
+  box-shadow: 6px 7px 9px 5px #00bac773;
+}
+
+.profile-img img{
+  width: 100%;
+  border-radius: 50%;
+
+}
+.name-div {
+  padding: 60px 0 0 55px; 
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.name-div h1 {
+  margin-top: -45%;
+  margin-left: -20%;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.name-div p{
+  margin-left: -20%;
+  font-size: 1.7rem;
+}
+
+.name-div .p3{
+  font-size: 1.2rem;
+}
+
+.box-2 {
+  padding: 5px 50px 35px;
+  color: #000;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.p2 {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 18px;
+  margin-top: 5px;
+}
+
+
+
+.icons3 {
+  vertical-align: bottom;
+  font-size: 21px !important;
+  color: #4b4f50;
+}
+
+.box-1 .p3,
+span {
+  font-size: 10px;
+  word-spacing: 1px;
+  margin-top: 10px;
+
+}
+
+span {
+  color: #05737a;
+}
+
+.box-1{
+  position: relative;
+}
+
+.heading{
+  background-color: #4b4f50;
+  padding: 10px;
+  color: #00bac7;
+  text-align: left;
+  padding-left: 20px;
+  margin-right: -15px;
+}
+
+.heading::after{
+  content: '';
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  background-color: #212222;
+  left: 191px;
+  top: 26px;
+  transform: rotate(56deg);
+  z-index: -1;
+}
+.p4{
+  padding: 9px 10px;
+  font-size: 11px;
+  font-weight: 900;
+}
+ 
+.p1{
+  padding: 9px 10px;
+  font-size: 11px;
+}
+
+
+.skill-container{
+  width: 90%;
+  background-color: #4b4f50;
+  margin: 0px 10px;
+}
+
+.skill{
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  background-color: white;
+}
+
+.html{
+  width: 90%;
+  
+}
+
+.css, .bootstrap, .javascript {
+  width: 80%;
+ 
+}
+
+
+.react{
+  width: 10%;
+ 
+}
+
+
+@media (max-width:600px){
+  .main{
+    width: 100%;
+    transform: translate(-50%);
+    right: 50%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .name-div h1 {
+    margin-left: 35%;
+    font-size: 1.8rem;
+    
+  }
+
+  .name-div p {
+    margin-left: 35%;
+    font-size: 1.4rem;
+  }
+
+
+  .left {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  
+  .right{
+    width: 100%;
+    
+  }
+ 
+ 
+}

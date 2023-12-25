@@ -454,16 +454,16 @@ body{
 .com h1 {
    font-size: 3rem;
    display: block;
-   padding: 12rem 0;
+   padding: 10rem 0;
    letter-spacing: 2;
    text-align: center;
    text-transform: uppercase;
    color: var(--im-color);
+   cursor: pointer;
 }
 
 .portf-cards{
    display: flex;
-   align-items: flex-end;
    width: 400px;
    height: 400px;
    text-align: center;
@@ -860,6 +860,8 @@ body{
    .portf-cards{
       width: 350px;
       height: 350px;
+       margin-bottom: 2rem;
+
    }
 
   
@@ -867,15 +869,15 @@ body{
 
 @media (max-width: 617px){
    .skills-box{
-      padding: 0 7rem;
+      padding: 0;
    }
    .portfolio .portf-content{
       grid-template-columns: 1fr;
-      padding: 0 0.6rem;
    } 
 
    .portf-cards {
       width: 100%;
+      height: 350px;
          
    }
 
@@ -883,22 +885,19 @@ body{
       right: 6rem;
    }
 
-   
-
-   .name{
-      margin-top: 15rem;
-      margin-bottom: 0;
-      padding: 3rem; 
-   }
    .name-content h3{
-      font-size: 3.1rem;
+      font-size: 2.8rem;
    }
 
    .name-content h2{
-      font-size: 3.5rem;
+      font-size: 3rem;
    }
-   .name-content p {
-      font-size: 1.5rem;
+   .name-content p, .about-content p {
+      font-size: 1.3rem;
+   }
+
+   .name-content .social-media a{
+      margin: 3rem 0.2rem;
    }
    
    .contact form .contact-box input{

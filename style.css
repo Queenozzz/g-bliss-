@@ -562,7 +562,7 @@ body{
 .portf-cards::after{
    transform: translateY(0);
 }
-.portf-body>*:not(.portf-tittle){
+.portf-body>*:not(.portf-tittle), #check1:hover :checked~.click i .fa-solid{
    opacity: 0;
    transform: translateY(1rem);
    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
@@ -576,14 +576,14 @@ body{
   transform: translateY(-4%);
 
 }
-.portf-cards:hover::after {
+.portf-cards:hover::after, #check1:hover :checked::after {
    transform: translateY(-50%);
 }
-.portf-cards:hover :checked .portf-body{
+.portf-cards:hover .portf-body, #check1:hover :checked~.click .portf-body{
    transform: translateY(0);
 }
 
-.portf-cards:hover :checked .portf-body>*:not(.portf-tittle){
+.portf-cards:hover :checked .portf-body>*:not(.portf-tittle), #check1:hover :checked~.click .portf-body{
    opacity: 1.0;
    transform: translateY(0);
    transition-delay: calc(var(--d) / 8);

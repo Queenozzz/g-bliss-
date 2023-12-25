@@ -583,7 +583,7 @@ body{
    transform: translateY(0);
 }
 
-.portf-cards:hover :checked .portf-body>*:not(.portf-tittle), #check1:hover :checked~.click .portf-body{
+.portf-cards:hover .portf-body>*:not(.portf-tittle), #check1:hover :checked~.click .portf-body{
    opacity: 1.0;
    transform: translateY(0);
    transition-delay: calc(var(--d) / 8);

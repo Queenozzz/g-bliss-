@@ -182,6 +182,10 @@ span {
 
 
 @media (max-width:600px){
+  .profile-img{
+    width: 140px;
+    
+  }
   .main{
     width: 100%;
     transform: translate(-50%);

@@ -225,7 +225,7 @@ body{
    cursor: pointer;
 }
 
-#check{
+#check, #check1{
    display: none;
 }
 
@@ -244,7 +244,6 @@ body{
 
 .name{
    padding: 10rem 7% 2rem;
-   margin-top: 5rem;
    display: flex;
    justify-content: flex-end;
    flex-direction: column-reverse;
@@ -568,7 +567,7 @@ body{
    transform: translateY(1rem);
    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
 }
-.portf-cards:hover{
+.portf-cards:hover :checked{
    align-items: center;
 
 }
@@ -580,11 +579,11 @@ body{
 .portf-cards:hover::after {
    transform: translateY(-50%);
 }
-.portf-cards:hover .portf-body{
+.portf-cards:hover :checked .portf-body{
    transform: translateY(0);
 }
 
-.portf-cards:hover .portf-body>*:not(.portf-tittle){
+.portf-cards:hover :checked .portf-body>*:not(.portf-tittle){
    opacity: 1.0;
    transform: translateY(0);
    transition-delay: calc(var(--d) / 8);
@@ -814,11 +813,6 @@ body{
       transform: 0.5s;
    }
 
-  .name {
-     margin: 15rem 0 0;
-     padding: 5rem;
-     text-align: left;
-   }
 
   .name-content h3 {
      font-size: 4rem;
@@ -832,6 +826,11 @@ body{
      font-size: 1.8rem;
    }
 
+   .name-content .social-media a{
+      margin: 3rem 0;
+      width: 3rem;
+      height: 3rem;
+   } 
   
    .about-content{
       flex-direction: column-reverse;
@@ -855,12 +854,12 @@ body{
    
    .portf-content{
       padding: 10rem 1rem;
-      gap: 3rem;
+      
    } 
    .portf-cards{
       width: 350px;
       height: 350px;
-       margin-bottom: 2rem;
+      margin-bottom: 3rem;
 
    }
 
@@ -883,7 +882,7 @@ body{
 
    .portf-cards {
       width: 100%;
-      height: 350px;
+      height: 400px;
          
    }
 
@@ -891,30 +890,7 @@ body{
       right: 6rem;
    }
 
-   .name-content{
-      line-height: 1.5;
-      margin-top: 5rem;
-      padding: 0; 
-      width: 100%;
-   } 
-   
-   .name-content h3{
-      font-size: 2.8rem;
-   }
-
-   .name-content h2{
-      font-size: 3rem;
-   }
-   .name-content p, .about-content p {
-      font-size: 1.3rem;
-   }
-
-   .name-content .social-media a{
-      margin: 3rem 0.2rem;
-      width: 3rem;
-      height: 3rem;
-   }
-   
+  
    .contact form .contact-box input{
       width: 100%;
       padding: 0 0.1rem;

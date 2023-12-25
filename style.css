@@ -567,7 +567,7 @@ body{
    transform: translateY(1rem);
    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
 }
-.portf-cards:hover :checked{
+.portf-cards:hover{
    align-items: center;
 
 }
@@ -579,7 +579,7 @@ body{
 .portf-cards:hover::after, #check1:hover :checked::after {
    transform: translateY(-50%);
 }
-.portf-cards:hover .portf-body, #check1:hover :checked~.click .portf-body{
+.portf-cards:hover .portf-body{
    transform: translateY(0);
 }
 
@@ -878,6 +878,7 @@ body{
    
    .portfolio .portf-content{
       grid-template-columns: 1fr;
+      padding: 0;
    } 
 
    .portf-cards {

@@ -182,10 +182,7 @@ span {
 
 
 @media (max-width:600px){
-  .profile-img{
-    width: 140px;
-    
-  }
+  
   .main{
     width: 100%;
     transform: translate(-50%);
@@ -195,20 +192,17 @@ span {
     flex-direction: column;
     height: auto;
   }
-
-  .name-div {
-     padding: 40px 0 0 35px; 
-  
-  }
   
   .name-div h1 {
+    padding-top: 5%;
     margin-left: 35%;
     font-size: 1.8rem;
     
   }
 
-  .name-div p {
-    margin-left: 35%;
+  .box2 p {
+    margin-left: 45%;
+    margin-bottom: 10%;
     font-size: 1.4rem;
   }
 

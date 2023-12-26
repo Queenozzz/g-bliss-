@@ -10,6 +10,7 @@ body{
   height: 100vh;
   font-weight: bold;
   letter-spacing: 2px;
+  width: 100%;
 
 } 
 
@@ -182,6 +183,11 @@ span {
 
 
 @media (max-width:600px){
+  .profile-img{
+    width: 120px;
+    height: 120px;
+  }
+
   
   .main{
     width: 100%;
@@ -192,20 +198,22 @@ span {
     flex-direction: column;
     height: auto;
   }
-  
+ .name-div {
+    margin-top: 10%;
+    letter-spacing: 1px;
+  }
+
   .name-div h1 {
-    padding-top: 5%;
-    margin-left: 35%;
+    margin-left: 15%;
     font-size: 1.8rem;
     
   }
 
-  .box2 p {
-    margin-left: 45%;
-    margin-bottom: 10%;
+
+  .name-div p {
+    margin-left: 10%;
     font-size: 1.4rem;
   }
-
 
   .left {
     flex-direction: column-reverse;

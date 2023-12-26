@@ -213,8 +213,14 @@ span {
   .name-div p {
     margin-left: 10%;
     font-size: 1.4rem;
+    color: #000;
+    text-decoration: none;
   }
 
+   .box-2 {
+    padding: 15px 10px 35px;
+ 
+  }
   .left {
     flex-direction: column-reverse;
     width: 100%;
